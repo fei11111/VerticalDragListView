@@ -1,6 +1,6 @@
 # VerticalDragListView
 仿汽车之家拖动listview呈现菜单栏
 
-ViewDragHelper实例，使用ViewDragHelper原因在于可以任意拖动子View
+ViewDragHelper实例，使用ViewDragHelper原因在于可以任意拖动子View，这个实例只拖动一个控件，另一个控件不动，比较好处理
 
 用ScrollView实现的话还需要考虑比较多的事件触发问题，因为子View是ListView或RecyclerView可拖动的控件，还有scrollview的子View需要占据整个布局才能滚动
